@@ -16,7 +16,6 @@ However, `init.css` adds a few features for responsiveness:
 The `box-sizing` property is set to `border-box` for every HTML element. This renders your layout easier to scale and to make it responsive. No miracles though, you will still have to code more CSS for a truly responsive Website. More information about `box-sizing` [here](http://css-tricks.com/box-sizing/).
 
 **Code:**
-
 ```css
 * {
 	-webkit-box-sizing: border-box;
@@ -45,7 +44,6 @@ More importantly, `init.css` supports this property for IE10+ in Modern UI mode.
 HTML's and Body's width and height are set to 100%. You won't have to think about size inheritance anymore.
 
 **Code:**
-
 ```css
 html,
 body {
