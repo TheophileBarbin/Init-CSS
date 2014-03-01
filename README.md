@@ -20,10 +20,10 @@ The `box-sizing` property is set to `border-box` for every HTML element. This re
 ```css
 * {
 	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-	     -o-box-sizing: border-box;
-	        box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
 }
 ```
 
@@ -34,11 +34,10 @@ The viewport's width matches the viewers's device's width.
 More importantly, `init.css` supports this property for IE10+ in Modern UI mode. Basically, this means your Website will also be (finally!) responsive in snapped mode in the Modern Internet Explorer. More information [here](http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/).
 
 **Code:**
+```css
 @viewport { width: device-width; }
 
 @-ms-viewport { width: device-width; } /* For snapped mode in IE10+ Modern UI. */
-```css
-
 ```
 
 ### Sized HTML and Body elements
